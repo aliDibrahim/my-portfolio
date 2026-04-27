@@ -31,6 +31,15 @@ const projects = [
     link: "",
     github: "https://github.com/aliDibrahim/link-library",
   },
+  {
+    title: "Landing page",
+    description:
+      "A modern React landing page built with Vite and Tailwind CSS. This project includes reusable UI sections.",
+    image: "/projects/project-4.PNG",
+    tags: ["React", "CSS"],
+    link: "https://landing-page-sand-chi-31.vercel.app/",
+    github: "https://github.com/aliDibrahim/landing-page",
+  },
 ];
 
 export const Projects = () => {
@@ -41,7 +50,6 @@ export const Projects = () => {
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-6 relative z-10">
-
         {/* Section Header */}
         <div className="text-center mx-auto max-w-3xl mb-16">
           <FadeIn delay={0}>
@@ -54,7 +62,8 @@ export const Projects = () => {
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-secondary-foreground">
               Projects that
               <span className="font-serif italic font-normal text-white">
-                {" "}make an impact.
+                {" "}
+                make an impact.
               </span>
             </h2>
           </FadeIn>
@@ -160,7 +169,6 @@ export const Projects = () => {
             </a>
           </div>
         </FadeIn>
-
       </div>
     </section>
   );

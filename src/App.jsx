@@ -8,6 +8,7 @@ import { Testimonials } from "./sections/Testimonials";
 import { Contact } from "./sections/Contact";
 import { useEffect, useState } from "react";
 import { ArrowUp } from "lucide-react";
+import CursorGlow from "./components/CursorGlow";
 function App() {
   const [showScrollButton, setShowScrollButton] = useState(false);
 
@@ -38,6 +39,7 @@ function App() {
   };
   return (
     <div className="min-h-screen overflow-x-hidden ">
+      <CursorGlow />
       <Navbar />
       <main>
         <Hero />
