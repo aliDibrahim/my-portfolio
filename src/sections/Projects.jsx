@@ -40,6 +40,15 @@ const projects = [
     link: "https://landing-page-sand-chi-31.vercel.app/",
     github: "https://github.com/aliDibrahim/landing-page",
   },
+  {
+    title: "Dashboard",
+    description:
+      "A modern admin dashboard website built with React, Vite, Tailwind CSS, and Recharts.",
+    image: "/projects/project-5.PNG",
+    tags: ["React", "CSS", "Recharts"],
+    link: "https://dashboard-ivory-iota-53.vercel.app/",
+    github: "https://github.com/aliDibrahim/Dashboard",
+  },
 ];
 
 export const Projects = () => {
@@ -118,6 +127,12 @@ export const Projects = () => {
                     >
                       <FiGithub className="w-5 h-5" />
                     </a>
+                  )}
+
+                  {!project.link && !project.github && (
+                    <span className="px-4 py-2 rounded-full bg-background  border-2 border-primary text-xs font-semibold uppercase tracking-[0.15em] text-primary">
+                      Private client
+                    </span>
                   )}
                 </div>
               </div>
