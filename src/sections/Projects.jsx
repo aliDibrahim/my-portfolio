@@ -36,7 +36,7 @@ const projects = [
     description:
       "A modern React landing page built with Vite and Tailwind CSS. This project includes reusable UI sections.",
     image: "/projects/project-4.PNG",
-    tags: ["React", "CSS"],
+    tags: ["React", "tailwind CSS", "Vite"],
     link: "https://landing-page-sand-chi-31.vercel.app/",
     github: "https://github.com/aliDibrahim/landing-page",
   },
@@ -45,9 +45,18 @@ const projects = [
     description:
       "A modern admin dashboard website built with React, Vite, Tailwind CSS, and Recharts.",
     image: "/projects/project-5.PNG",
-    tags: ["React", "CSS", "Recharts"],
+    tags: ["React", "tailwind CSS", "Vite", "Recharts"],
     link: "https://dashboard-ivory-iota-53.vercel.app/",
     github: "https://github.com/aliDibrahim/Dashboard",
+  },
+  {
+    title: "Digital Sanctuary",
+    description:
+      "A modern prayer timetable application built with React and Vite. It offers prayer time tracking, Qibla direction, a daily Tasbih counter, PDF export, language support, and a clean mobile-friendly UI.",
+    image: "/projects/project-6.PNG",
+    tags: ["React", "tailwind CSS", "Vite"],
+    link: "https://the-digital-sanctuary-phi.vercel.app/",
+    github: "https://github.com/aliDibrahim/The-Digital-Sanctuary",
   },
 ];
 
