@@ -58,6 +58,15 @@ const projects = [
     link: "https://the-digital-sanctuary-phi.vercel.app/",
     github: "https://github.com/aliDibrahim/The-Digital-Sanctuary",
   },
+  {
+    title: "E-commerce",
+    description:
+      "Lightweight e-commerce demo built with React, TypeScript and Vite. Includes a small product catalog, product pages, filters, and a shopping cart.",
+    image: "/projects/project-7.PNG",
+    tags: ["React", "TypeScript", "tailwind CSS", "axios", "Vite"],
+    link: "https://e-commerce-azure-six-68.vercel.app/",
+    github: "https://github.com/aliDibrahim/E-commerce",
+  },
 ];
 
 export const Projects = () => {
